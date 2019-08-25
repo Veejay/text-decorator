@@ -91,6 +91,11 @@ for (let occurrence of occurrences) {
   console.log(sample.slice(occurrence, occurrence + 3))
 }
 
+
+// TODO: extract this to the TextDecorator class and have it take
+// an opening decorator strategy and an ending decorator strategy
+// to avoid hard-coding the <a in there
+// also, we need to be able to pass the final URL for the link to the decorator
 const decorateText = (text, decoratorDefinition) => {
   // NOTE: has to be -1 if the occurrence index is 0-based
   let startWordOccurrence = 0
