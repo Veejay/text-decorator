@@ -85,11 +85,11 @@ class TextDecorator {
   }
 }
 
-const scanner = new TextScanner(sample)
-const occurrences = scanner.occurrences('Par')
-for (let occurrence of occurrences) {
-  console.log(sample.slice(occurrence, occurrence + 3))
-}
+// const scanner = new TextScanner(sample)
+// const occurrences = scanner.occurrences('Par')
+// for (let occurrence of occurrences) {
+//   console.log(sample.slice(occurrence, occurrence + 3))
+// }
 
 
 // TODO: extract this to the TextDecorator class and have it take
